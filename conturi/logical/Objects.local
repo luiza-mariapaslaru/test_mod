@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="94547E4E-D399-827B-A912-BF27C8C8F9AD" name="Invitatii_referral" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="79B53A5A-3E45-F320-A229-9EE2DC156B58" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="CEE12DF7-9362-63A4-A366-7DEC93692440" name="Tranzactii_economii" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="79B53A5A-3E45-F320-A229-9EE2DC156B58" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

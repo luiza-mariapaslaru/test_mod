@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="conturi" id="6C356D42-EB57-4B6A-0951-2A3624805EBF" version="3.5">
+<createdBy>Luiza Paslaru</createdBy>
+<createdTime>2026-10-25 14:53:02 UTC</createdTime>
+<ownerDesignName>conturi</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6C356D42-EB57-4B6A-0951-2A3624805EBF</designId>
+</OSDM_Design>

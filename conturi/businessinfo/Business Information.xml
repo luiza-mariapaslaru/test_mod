@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="CFAF9D60-B2B4-A2D3-B841-2FCEC6E03792">
+<createdBy>Luiza Paslaru</createdBy>
+<createdTime>2026-10-25 14:53:02 UTC</createdTime>
+<ownerDesignName>conturi</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94547E4E-D399-827B-A912-BF27C8C8F9AD" name="Invitatii_referral">
+<createdBy>Luiza Paslaru</createdBy>
+<createdTime>2026-10-25 17:15:18 UTC</createdTime>
+<ownerDesignName>conturi</ownerDesignName>
+<engineerTo>
+<item key="50DA6FD4-7EE2-C585-3558-9BAC605CB72C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="ABD44AFF-3153-EFB6-3B7A-0BB1D6F7D543">
+<createdBy>Luiza Paslaru</createdBy>
+<createdTime>2026-10-25 17:15:45 UTC</createdTime>
+<ownerDesignName>conturi</ownerDesignName>
+<engineerTo>
+<item key="50DA6FD4-7EE2-C585-3558-9BAC605CB72C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="client_invita_id" id="01ABA423-79C4-5EFB-CAE1-7FBB8A968EC6">
+<createdBy>Luiza Paslaru</createdBy>
+<createdTime>2026-10-25 17:18:14 UTC</createdTime>
+<ownerDesignName>conturi</ownerDesignName>
+<engineerTo>
+<item key="50DA6FD4-7EE2-C585-3558-9BAC605CB72C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="client_invitat" id="A71934FA-A1D7-44AC-3990-776256F7FD37">
+<createdBy>Luiza Paslaru</createdBy>
+<createdTime>2026-10-25 17:44:04 UTC</createdTime>
+<ownerDesignName>conturi</ownerDesignName>
+<engineerTo>
+<item key="50DA6FD4-7EE2-C585-3558-9BAC605CB72C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FE8C4926-ED72-D4AD-3231-07C0A405C29F" name="Invitatii_referral PK">
+<createdBy>Luiza Paslaru</createdBy>
+<createdTime>2026-10-25 17:15:52 UTC</createdTime>
+<ownerDesignName>conturi</ownerDesignName>
+<engineerTo>
+<item key="50DA6FD4-7EE2-C585-3558-9BAC605CB72C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ABD44AFF-3153-EFB6-3B7A-0BB1D6F7D543</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

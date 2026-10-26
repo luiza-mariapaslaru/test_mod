@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CEE12DF7-9362-63A4-A366-7DEC93692440" name="Tranzactii_economii">
+<createdBy>Luiza Paslaru</createdBy>
+<createdTime>2026-10-25 15:46:22 UTC</createdTime>
+<ownerDesignName>conturi</ownerDesignName>
+<engineerTo>
+<item key="50DA6FD4-7EE2-C585-3558-9BAC605CB72C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="6D251D33-5ADB-40AE-63F7-1E0FCB96EA47">
+<createdBy>Luiza Paslaru</createdBy>
+<createdTime>2026-10-25 16:02:48 UTC</createdTime>
+<ownerDesignName>conturi</ownerDesignName>
+<engineerTo>
+<item key="50DA6FD4-7EE2-C585-3558-9BAC605CB72C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cont_curent_id" id="DE16355E-2DCA-B5B4-D865-9BC052A073E9">
+<createdBy>Luiza Paslaru</createdBy>
+<createdTime>2026-10-25 16:04:48 UTC</createdTime>
+<ownerDesignName>conturi</ownerDesignName>
+<engineerTo>
+<item key="50DA6FD4-7EE2-C585-3558-9BAC605CB72C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cont_economii_id" id="16ADFF32-29FC-EBF5-AD63-195421098DC0">
+<createdBy>Luiza Paslaru</createdBy>
+<createdTime>2026-10-25 16:07:04 UTC</createdTime>
+<ownerDesignName>conturi</ownerDesignName>
+<engineerTo>
+<item key="50DA6FD4-7EE2-C585-3558-9BAC605CB72C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="suma" id="A137C4E0-2304-2D32-6312-CC9EA543D3A0">
+<createdBy>Luiza Paslaru</createdBy>
+<createdTime>2026-10-25 16:17:54 UTC</createdTime>
+<ownerDesignName>conturi</ownerDesignName>
+<engineerTo>
+<item key="50DA6FD4-7EE2-C585-3558-9BAC605CB72C" value="true"/>
+</engineerTo>
+<constraintName>tranzactii_economii_suma_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="suma&gt;0
+"/>
+</checkConstraint>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip_operatiune" id="B5AA5CB7-DB97-9AC4-834E-FA9B9AFEA81F">
+<createdBy>Luiza Paslaru</createdBy>
+<createdTime>2026-10-25 16:45:26 UTC</createdTime>
+<ownerDesignName>conturi</ownerDesignName>
+<engineerTo>
+<item key="50DA6FD4-7EE2-C585-3558-9BAC605CB72C" value="true"/>
+</engineerTo>
+<constraintName>tranzactii_economii_tip_operatiune_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<listOfValues>
+<valueDef value="DEPUNERE" description=""/>
+<valueDef value="RETRAGERE" description=""/>
+</listOfValues>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="823E5731-C044-B320-50B7-18DE8668F2FB">
+<createdBy>Luiza Paslaru</createdBy>
+<createdTime>2026-10-25 16:51:39 UTC</createdTime>
+<ownerDesignName>conturi</ownerDesignName>
+<engineerTo>
+<item key="50DA6FD4-7EE2-C585-3558-9BAC605CB72C" value="true"/>
+</engineerTo>
+<constraintName>tranzactii_economii_status_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<listOfValues>
+<valueDef value="FAIL" description=""/>
+<valueDef value="SUCCESS" description=""/>
+</listOfValues>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_tranzactiei" id="28C9176A-130A-FA20-591A-A913F5A412F1">
+<createdBy>Luiza Paslaru</createdBy>
+<createdTime>2026-10-25 16:57:57 UTC</createdTime>
+<ownerDesignName>conturi</ownerDesignName>
+<engineerTo>
+<item key="50DA6FD4-7EE2-C585-3558-9BAC605CB72C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB20B40B-30BC-DABD-CC0E-78853CE0C8D1" name="Tranzactii_economii PK">
+<createdBy>Luiza Paslaru</createdBy>
+<createdTime>2026-10-25 16:03:14 UTC</createdTime>
+<ownerDesignName>conturi</ownerDesignName>
+<engineerTo>
+<item key="50DA6FD4-7EE2-C585-3558-9BAC605CB72C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6D251D33-5ADB-40AE-63F7-1E0FCB96EA47</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
